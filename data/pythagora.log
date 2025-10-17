@@ -1,0 +1,1151 @@
+2025-10-05T10:21:38.154Z INFO SharedStateManager initialized
+2025-10-05T10:21:38.156Z INFO Is remote: false
+2025-10-05T10:21:38.157Z INFO Starting Local. Installation path: c:\
+2025-10-05T10:21:38.158Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-05T10:21:38.159Z INFO Installation path exists: c:\
+2025-10-05T10:21:38.160Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-05T10:21:38.166Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13] Project root:
+2025-10-05T10:21:38.167Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\prisma\schema.prisma] Schema path:
+2025-10-05T10:21:38.168Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-05T10:21:38.168Z INFO [true] Schema exists:
+2025-10-05T10:21:38.169Z INFO Running prisma generate first...
+2025-10-05T10:21:45.821Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.3) to .\src\generated\prisma in 316ms
+
+] Prisma generate result:
+2025-10-05T10:21:45.822Z INFO Running prisma db push to sync schema...
+2025-10-05T10:21:49.144Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.3) to .\src\generated\prisma in 291ms
+
+] Prisma db push result:
+2025-10-05T10:21:49.145Z INFO Database initialized successfully
+2025-10-05T10:21:49.752Z INFO [Migration] Checking for database migration...
+2025-10-05T10:21:53.012Z INFO [Migration] No migration needed
+2025-10-05T11:38:16.893Z INFO Closing entire Pythagora extension...
+2025-10-05T11:38:16.971Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new CR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at Kb.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41045)
+    at Kb.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40549)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:103656)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\out\extension.js:380:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\out\extension.js:290:15)
+    at aJ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+    at Array.map (<anonymous>)
+    at aJ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+    at aJ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+    at RP.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-08T06:39:32.676Z INFO SharedStateManager initialized
+2025-10-08T06:39:32.678Z INFO Is remote: false
+2025-10-08T06:39:32.679Z INFO Starting Local. Installation path: c:\
+2025-10-08T06:39:32.680Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-08T06:39:32.681Z INFO Installation path exists: c:\
+2025-10-08T06:39:32.682Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-08T06:39:32.687Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13] Project root:
+2025-10-08T06:39:32.688Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\prisma\schema.prisma] Schema path:
+2025-10-08T06:39:32.688Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-08T06:39:32.689Z INFO [true] Schema exists:
+2025-10-08T06:39:32.690Z INFO Running prisma generate first...
+2025-10-08T06:39:36.849Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.3) to .\src\generated\prisma in 332ms
+
+] Prisma generate result:
+2025-10-08T06:39:37.482Z INFO Running prisma db push to sync schema...
+2025-10-08T06:39:40.797Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.3) to .\src\generated\prisma in 306ms
+
+] Prisma db push result:
+2025-10-08T06:39:40.798Z INFO Database initialized successfully
+2025-10-08T06:39:40.800Z INFO [Migration] Checking for database migration...
+2025-10-08T06:39:41.381Z INFO [Migration] No migration needed
+2025-10-08T06:40:07.809Z INFO Closing entire Pythagora extension...
+2025-10-08T06:40:07.843Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new CR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at Kb.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41045)
+    at Kb.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40549)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:103656)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\out\extension.js:380:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\out\extension.js:290:15)
+    at aJ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+    at Array.map (<anonymous>)
+    at aJ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+    at aJ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+    at RP.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-13T12:02:14.893Z INFO SharedStateManager initialized
+2025-10-13T12:02:14.895Z INFO Is remote: false
+2025-10-13T12:02:14.896Z INFO Starting Local. Installation path: c:\
+2025-10-13T12:02:14.898Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-13T12:02:14.900Z INFO Installation path exists: c:\
+2025-10-13T12:02:14.901Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-13T12:02:14.908Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13] Project root:
+2025-10-13T12:02:14.909Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\prisma\schema.prisma] Schema path:
+2025-10-13T12:02:14.910Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-13T12:02:14.910Z INFO [true] Schema exists:
+2025-10-13T12:02:14.911Z INFO Running prisma generate first...
+2025-10-13T12:02:20.563Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.3) to .\src\generated\prisma in 461ms
+
+] Prisma generate result:
+2025-10-13T12:02:20.564Z INFO Running prisma db push to sync schema...
+2025-10-13T12:02:25.795Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.3) to .\src\generated\prisma in 456ms
+
+] Prisma db push result:
+2025-10-13T12:02:25.795Z INFO Database initialized successfully
+2025-10-13T12:02:25.796Z INFO [Migration] Checking for database migration...
+2025-10-13T12:02:26.578Z INFO [Migration] No migration needed
+2025-10-13T12:02:26.629Z INFO Closing entire Pythagora extension...
+2025-10-13T12:02:26.652Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new CR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at Kb.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41045)
+    at Kb.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40549)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:103656)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\out\extension.js:380:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\out\extension.js:290:15)
+    at aJ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+    at Array.map (<anonymous>)
+    at aJ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+    at aJ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+    at RP.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-13T12:02:48.369Z INFO SharedStateManager initialized
+2025-10-13T12:02:48.370Z INFO Is remote: false
+2025-10-13T12:02:48.372Z INFO Starting Local. Installation path: c:\
+2025-10-13T12:02:48.373Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-13T12:02:48.376Z INFO Installation path exists: c:\
+2025-10-13T12:02:48.378Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-13T12:02:48.384Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13] Project root:
+2025-10-13T12:02:48.384Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\prisma\schema.prisma] Schema path:
+2025-10-13T12:02:48.385Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-13T12:02:48.386Z INFO [true] Schema exists:
+2025-10-13T12:02:48.387Z INFO Running prisma generate first...
+2025-10-13T12:02:52.546Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.16.3) to .\src\generated\prisma in 465ms
+
+] Prisma generate result:
+2025-10-13T12:02:52.547Z INFO Running prisma db push to sync schema...
+2025-10-13T12:02:57.288Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.16.3) to .\src\generated\prisma in 427ms
+
+] Prisma db push result:
+2025-10-13T12:02:57.289Z INFO Database initialized successfully
+2025-10-13T12:02:57.291Z INFO [Migration] Checking for database migration...
+2025-10-13T12:02:57.532Z INFO [Migration] No migration needed
+2025-10-13T14:12:15.462Z INFO Closing entire Pythagora extension...
+2025-10-13T14:12:15.530Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new CR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115607)
+    at j4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120217)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117711)
+    at Kb.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41045)
+    at Kb.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40549)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:199:103656)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\out\extension.js:380:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.13\out\extension.js:290:15)
+    at aJ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+    at Array.map (<anonymous>)
+    at aJ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+    at aJ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+    at RP.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+    at bs (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:10410)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6949)
+    at MessagePortMain.emit (node:events:518:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-14T14:27:37.835Z INFO SharedStateManager initialized
+2025-10-14T14:27:37.837Z INFO Is remote: false
+2025-10-14T14:27:37.838Z INFO Starting Local. Installation path: c:\
+2025-10-14T14:27:37.839Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-14T14:27:37.840Z INFO Installation path exists: c:\
+2025-10-14T14:27:37.841Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-14T14:27:37.846Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17] Project root:
+2025-10-14T14:27:37.847Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\prisma\schema.prisma] Schema path:
+2025-10-14T14:27:37.847Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-14T14:27:37.848Z INFO [true] Schema exists:
+2025-10-14T14:27:37.849Z INFO Running prisma generate first...
+2025-10-14T14:27:55.620Z INFO SharedStateManager initialized
+2025-10-14T14:27:55.621Z INFO Is remote: false
+2025-10-14T14:27:55.621Z INFO Starting Local. Installation path: c:\
+2025-10-14T14:27:55.622Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-14T14:27:55.624Z INFO Installation path exists: c:\
+2025-10-14T14:27:55.627Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-14T14:27:55.637Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17] Project root:
+2025-10-14T14:27:55.638Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\prisma\schema.prisma] Schema path:
+2025-10-14T14:27:55.639Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-14T14:27:55.640Z INFO [true] Schema exists:
+2025-10-14T14:27:55.640Z INFO Running prisma generate first...
+2025-10-14T14:28:20.617Z ERROR Database initialization error
+Error: Command failed: node "c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\prisma\build\index.js" generate --schema="c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\prisma\schema.prisma"
+Error: EPERM: operation not permitted, rename 'c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\@prisma\engines\schema-engine-windows.exe.tmp20304' -> 'c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\@prisma\engines\schema-engine-windows.exe'
+
+Stack: Error: Command failed: node "c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\prisma\build\index.js" generate --schema="c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\prisma\schema.prisma"
+Error: EPERM: operation not permitted, rename 'c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\@prisma\engines\schema-engine-windows.exe.tmp20304' -> 'c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\@prisma\engines\schema-engine-windows.exe'
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:948:11)
+    at execSync (node:child_process:1020:15)
+    at node:electron/js2c/node_init:2:17346
+    at PrismaSession.ensureDatabaseSync (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\core\CustomPrismaSession.js:83:65)
+    at new PrismaSession (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\core\CustomPrismaSession.js:17:18)
+    at PrismaSession.getInstance (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\core\CustomPrismaSession.js:28:38)
+    at initializeDatabase (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\extension.js:39:45)
+    at activate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\extension.js:105:15)
+    at Gb.n (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "stdout": "",
+  "stderr": "Error: EPERM: operation not permitted, rename 'c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\@prisma\\engines\\schema-engine-windows.exe.tmp20304' -> 'c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\@prisma\\engines\\schema-engine-windows.exe'\n",
+  "signal": null,
+  "message": "Command failed: node \"c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\prisma\\build\\index.js\" generate --schema=\"c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\prisma\\schema.prisma\"\nError: EPERM: operation not permitted, rename 'c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\@prisma\\engines\\schema-engine-windows.exe.tmp20304' -> 'c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\@prisma\\engines\\schema-engine-windows.exe'\n"
+}
+2025-10-14T14:28:20.628Z ERROR Failed to ensure database
+Error: Command failed: node "c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\prisma\build\index.js" generate --schema="c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\prisma\schema.prisma"
+Error: EPERM: operation not permitted, rename 'c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\@prisma\engines\schema-engine-windows.exe.tmp20304' -> 'c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\@prisma\engines\schema-engine-windows.exe'
+
+Stack: Error: Command failed: node "c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\prisma\build\index.js" generate --schema="c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\prisma\schema.prisma"
+Error: EPERM: operation not permitted, rename 'c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\@prisma\engines\schema-engine-windows.exe.tmp20304' -> 'c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\node_modules\@prisma\engines\schema-engine-windows.exe'
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:948:11)
+    at execSync (node:child_process:1020:15)
+    at node:electron/js2c/node_init:2:17346
+    at PrismaSession.ensureDatabaseSync (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\core\CustomPrismaSession.js:83:65)
+    at new PrismaSession (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\core\CustomPrismaSession.js:17:18)
+    at PrismaSession.getInstance (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\core\CustomPrismaSession.js:28:38)
+    at initializeDatabase (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\extension.js:39:45)
+    at activate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\extension.js:105:15)
+    at Gb.n (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13382)
+    at Gb.m (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:13345)
+    at Gb.l (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:12801)
+Extra context: {
+  "stdout": "",
+  "stderr": "Error: EPERM: operation not permitted, rename 'c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\@prisma\\engines\\schema-engine-windows.exe.tmp20304' -> 'c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\@prisma\\engines\\schema-engine-windows.exe'\n",
+  "signal": null,
+  "message": "Command failed: node \"c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\prisma\\build\\index.js\" generate --schema=\"c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\prisma\\schema.prisma\"\nError: EPERM: operation not permitted, rename 'c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\@prisma\\engines\\schema-engine-windows.exe.tmp20304' -> 'c:\\Users\\nihaa\\.vscode\\extensions\\pythagoratechnologies.pythagora-vs-code-2.5.17\\node_modules\\@prisma\\engines\\schema-engine-windows.exe'\n"
+}
+2025-10-14T14:28:20.629Z INFO Database initialized successfully
+2025-10-14T14:28:20.630Z INFO [Migration] Checking for database migration...
+2025-10-14T14:28:21.119Z INFO [Migration] No migration needed
+2025-10-14T14:28:21.163Z INFO Closing entire Pythagora extension...
+2025-10-14T14:28:21.174Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-14T14:28:20.775Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 343ms
+
+] Prisma generate result:
+2025-10-14T14:28:21.262Z INFO Running prisma db push to sync schema...
+2025-10-14T14:28:25.612Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 335ms
+
+] Prisma db push result:
+2025-10-14T14:28:25.613Z INFO Database initialized successfully
+2025-10-14T14:28:25.614Z INFO [Migration] Checking for database migration...
+2025-10-14T14:28:26.041Z INFO [Migration] No migration needed
+2025-10-14T14:45:27.608Z INFO Closing entire Pythagora extension...
+2025-10-14T14:45:27.633Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.17\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-14T16:09:15.538Z INFO SharedStateManager initialized
+2025-10-14T16:09:15.569Z INFO Is remote: false
+2025-10-14T16:09:15.570Z INFO Starting Local. Installation path: c:\
+2025-10-14T16:09:15.571Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-14T16:09:15.572Z INFO Installation path exists: c:\
+2025-10-14T16:09:15.572Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-14T16:09:15.576Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18] Project root:
+2025-10-14T16:09:15.576Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\prisma\schema.prisma] Schema path:
+2025-10-14T16:09:15.577Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-14T16:09:15.577Z INFO [true] Schema exists:
+2025-10-14T16:09:15.578Z INFO Running prisma generate first...
+2025-10-14T16:09:23.745Z INFO SharedStateManager initialized
+2025-10-14T16:09:23.747Z INFO Is remote: false
+2025-10-14T16:09:23.749Z INFO Starting Local. Installation path: c:\
+2025-10-14T16:09:23.750Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-14T16:09:23.751Z INFO Installation path exists: c:\
+2025-10-14T16:09:23.752Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-14T16:09:23.756Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18] Project root:
+2025-10-14T16:09:23.757Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\prisma\schema.prisma] Schema path:
+2025-10-14T16:09:23.757Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-14T16:09:23.758Z INFO [true] Schema exists:
+2025-10-14T16:09:23.758Z INFO Running prisma generate first...
+2025-10-14T16:10:09.309Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 408ms
+
+] Prisma generate result:
+2025-10-14T16:10:09.922Z INFO Running prisma db push to sync schema...
+2025-10-14T16:10:14.763Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 314ms
+
+] Prisma db push result:
+2025-10-14T16:10:14.764Z INFO Database initialized successfully
+2025-10-14T16:10:14.766Z INFO [Migration] Checking for database migration...
+2025-10-14T16:10:15.316Z INFO [Migration] No migration needed
+2025-10-14T16:10:30.025Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 318ms
+
+] Prisma generate result:
+2025-10-14T16:10:30.026Z INFO Running prisma db push to sync schema...
+2025-10-14T16:10:35.063Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 392ms
+
+] Prisma db push result:
+2025-10-14T16:10:35.063Z INFO Database initialized successfully
+2025-10-14T16:10:35.064Z INFO [Migration] Checking for database migration...
+2025-10-14T17:09:02.253Z INFO Closing entire Pythagora extension...
+2025-10-14T17:09:02.291Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-15T04:39:28.616Z INFO SharedStateManager initialized
+2025-10-15T04:39:28.630Z INFO Is remote: false
+2025-10-15T04:39:28.630Z INFO Starting Local. Installation path: c:\
+2025-10-15T04:39:28.631Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-15T04:39:28.632Z INFO Installation path exists: c:\
+2025-10-15T04:39:28.633Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-15T04:39:28.638Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18] Project root:
+2025-10-15T04:39:28.639Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\prisma\schema.prisma] Schema path:
+2025-10-15T04:39:28.639Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-15T04:39:28.640Z INFO [true] Schema exists:
+2025-10-15T04:39:28.640Z INFO Running prisma generate first...
+2025-10-15T04:39:33.864Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 415ms
+
+] Prisma generate result:
+2025-10-15T04:39:33.864Z INFO Running prisma db push to sync schema...
+2025-10-15T04:39:38.619Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 382ms
+
+] Prisma db push result:
+2025-10-15T04:39:38.619Z INFO Database initialized successfully
+2025-10-15T04:39:38.620Z INFO [Migration] Checking for database migration...
+2025-10-15T04:39:39.947Z INFO [Migration] No migration needed
+2025-10-15T04:39:40.012Z INFO Closing entire Pythagora extension...
+2025-10-15T04:39:40.018Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-15T04:39:44.736Z INFO SharedStateManager initialized
+2025-10-15T04:39:44.737Z INFO Is remote: false
+2025-10-15T04:39:44.737Z INFO Starting Local. Installation path: c:\
+2025-10-15T04:39:44.738Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-15T04:39:44.739Z INFO Installation path exists: c:\
+2025-10-15T04:39:44.740Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-15T04:39:44.743Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18] Project root:
+2025-10-15T04:39:44.743Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\prisma\schema.prisma] Schema path:
+2025-10-15T04:39:44.743Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-15T04:39:44.743Z INFO [true] Schema exists:
+2025-10-15T04:39:44.744Z INFO Running prisma generate first...
+2025-10-15T04:39:47.251Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 283ms
+
+] Prisma generate result:
+2025-10-15T04:39:47.252Z INFO Running prisma db push to sync schema...
+2025-10-15T04:39:49.809Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 261ms
+
+] Prisma db push result:
+2025-10-15T04:39:49.810Z INFO Database initialized successfully
+2025-10-15T04:39:49.811Z INFO [Migration] Checking for database migration...
+2025-10-15T04:39:50.714Z INFO [Migration] No migration needed
+2025-10-15T04:50:30.554Z INFO Closing entire Pythagora extension...
+2025-10-15T04:50:30.577Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-15T04:50:50.160Z INFO SharedStateManager initialized
+2025-10-15T04:50:50.162Z INFO Is remote: false
+2025-10-15T04:50:50.163Z INFO Starting Local. Installation path: c:\
+2025-10-15T04:50:50.164Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-15T04:50:50.166Z INFO Installation path exists: c:\
+2025-10-15T04:50:50.167Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-15T04:50:50.175Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18] Project root:
+2025-10-15T04:50:50.177Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\prisma\schema.prisma] Schema path:
+2025-10-15T04:50:50.178Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-15T04:50:50.179Z INFO [true] Schema exists:
+2025-10-15T04:50:50.180Z INFO Running prisma generate first...
+2025-10-15T04:50:53.158Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 328ms
+
+] Prisma generate result:
+2025-10-15T04:50:53.159Z INFO Running prisma db push to sync schema...
+2025-10-15T04:50:56.697Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 485ms
+
+] Prisma db push result:
+2025-10-15T04:50:56.698Z INFO Database initialized successfully
+2025-10-15T04:50:56.699Z INFO [Migration] Checking for database migration...
+2025-10-15T13:33:25.320Z INFO SharedStateManager initialized
+2025-10-15T13:33:25.322Z INFO Is remote: false
+2025-10-15T13:33:25.323Z INFO Starting Local. Installation path: c:\
+2025-10-15T13:33:25.324Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-15T13:33:25.325Z INFO Installation path exists: c:\
+2025-10-15T13:33:25.326Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-15T13:33:25.331Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18] Project root:
+2025-10-15T13:33:25.332Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\prisma\schema.prisma] Schema path:
+2025-10-15T13:33:25.332Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-15T13:33:25.333Z INFO [true] Schema exists:
+2025-10-15T13:33:25.334Z INFO Running prisma generate first...
+2025-10-15T13:33:29.314Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 390ms
+
+] Prisma generate result:
+2025-10-15T13:33:29.315Z INFO Running prisma db push to sync schema...
+2025-10-15T13:33:33.300Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 294ms
+
+] Prisma db push result:
+2025-10-15T13:33:33.301Z INFO Database initialized successfully
+2025-10-15T13:33:33.303Z INFO [Migration] Checking for database migration...
+2025-10-15T13:33:33.915Z INFO [Migration] No migration needed
+2025-10-15T13:34:34.949Z INFO Closing entire Pythagora extension...
+2025-10-15T13:34:34.984Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-15T13:36:47.383Z INFO SharedStateManager initialized
+2025-10-15T13:36:47.384Z INFO Is remote: false
+2025-10-15T13:36:47.385Z INFO Starting Local. Installation path: c:\
+2025-10-15T13:36:47.386Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-15T13:36:47.388Z INFO Installation path exists: c:\
+2025-10-15T13:36:47.389Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-15T13:36:47.395Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18] Project root:
+2025-10-15T13:36:47.396Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\prisma\schema.prisma] Schema path:
+2025-10-15T13:36:47.397Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-15T13:36:47.398Z INFO [true] Schema exists:
+2025-10-15T13:36:47.399Z INFO Running prisma generate first...
+2025-10-15T13:36:50.837Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 365ms
+
+] Prisma generate result:
+2025-10-15T13:36:50.838Z INFO Running prisma db push to sync schema...
+2025-10-15T13:36:54.583Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 339ms
+
+] Prisma db push result:
+2025-10-15T13:36:54.584Z INFO Database initialized successfully
+2025-10-15T13:36:55.109Z INFO [Migration] Checking for database migration...
+2025-10-15T13:36:55.499Z INFO [Migration] No migration needed
+2025-10-15T13:37:54.668Z INFO Closing entire Pythagora extension...
+2025-10-15T13:37:54.682Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-15T13:42:35.825Z INFO SharedStateManager initialized
+2025-10-15T13:42:35.827Z INFO Is remote: false
+2025-10-15T13:42:35.828Z INFO Starting Local. Installation path: c:\
+2025-10-15T13:42:35.829Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-15T13:42:35.830Z INFO Installation path exists: c:\
+2025-10-15T13:42:35.832Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-15T13:42:35.836Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18] Project root:
+2025-10-15T13:42:35.837Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\prisma\schema.prisma] Schema path:
+2025-10-15T13:42:35.837Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-15T13:42:35.838Z INFO [true] Schema exists:
+2025-10-15T13:42:35.839Z INFO Running prisma generate first...
+2025-10-15T13:42:39.382Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 368ms
+
+] Prisma generate result:
+2025-10-15T13:42:39.383Z INFO Running prisma db push to sync schema...
+2025-10-15T13:42:43.263Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 398ms
+
+] Prisma db push result:
+2025-10-15T13:42:43.265Z INFO Database initialized successfully
+2025-10-15T13:42:43.879Z INFO [Migration] Checking for database migration...
+2025-10-15T13:42:44.416Z INFO [Migration] No migration needed
+2025-10-15T15:33:05.084Z INFO Closing entire Pythagora extension...
+2025-10-15T15:33:05.119Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.18\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-15T16:23:43.822Z INFO SharedStateManager initialized
+2025-10-15T16:23:43.823Z INFO Is remote: false
+2025-10-15T16:23:43.824Z INFO Starting Local. Installation path: c:\
+2025-10-15T16:23:43.825Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-15T16:23:43.826Z INFO Installation path exists: c:\
+2025-10-15T16:23:43.827Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-15T16:23:43.830Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19] Project root:
+2025-10-15T16:23:43.831Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\prisma\schema.prisma] Schema path:
+2025-10-15T16:23:43.831Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-15T16:23:43.832Z INFO [true] Schema exists:
+2025-10-15T16:23:43.832Z INFO Running prisma generate first...
+2025-10-15T16:23:54.454Z INFO SharedStateManager initialized
+2025-10-15T16:23:54.456Z INFO Is remote: false
+2025-10-15T16:23:54.457Z INFO Starting Local. Installation path: c:\
+2025-10-15T16:23:54.459Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-15T16:23:54.462Z INFO Installation path exists: c:\
+2025-10-15T16:23:54.464Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-15T16:23:54.479Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19] Project root:
+2025-10-15T16:23:54.481Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\prisma\schema.prisma] Schema path:
+2025-10-15T16:23:54.482Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-15T16:23:54.485Z INFO [true] Schema exists:
+2025-10-15T16:23:54.491Z INFO Running prisma generate first...
+2025-10-15T16:24:58.374Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 477ms
+
+] Prisma generate result:
+2025-10-15T16:24:58.375Z INFO Running prisma db push to sync schema...
+2025-10-15T16:25:03.948Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 315ms
+
+] Prisma db push result:
+2025-10-15T16:25:03.949Z INFO Database initialized successfully
+2025-10-15T16:25:03.950Z INFO [Migration] Checking for database migration...
+2025-10-15T16:25:04.432Z INFO [Migration] No migration needed
+2025-10-15T16:25:12.101Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 512ms
+
+] Prisma generate result:
+2025-10-15T16:25:12.102Z INFO Running prisma db push to sync schema...
+2025-10-15T16:25:15.073Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 307ms
+
+] Prisma db push result:
+2025-10-15T16:25:15.074Z INFO Database initialized successfully
+2025-10-15T16:25:15.075Z INFO [Migration] Checking for database migration...
+2025-10-15T16:35:07.917Z INFO Closing entire Pythagora extension...
+2025-10-15T16:35:07.930Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-16T16:16:51.631Z INFO SharedStateManager initialized
+2025-10-16T16:16:51.636Z INFO Is remote: false
+2025-10-16T16:16:51.638Z INFO Starting Local. Installation path: c:\
+2025-10-16T16:16:51.640Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-16T16:16:51.643Z INFO Installation path exists: c:\
+2025-10-16T16:16:51.643Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-16T16:16:51.651Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19] Project root:
+2025-10-16T16:16:51.652Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\prisma\schema.prisma] Schema path:
+2025-10-16T16:16:51.653Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-16T16:16:51.654Z INFO [true] Schema exists:
+2025-10-16T16:16:51.655Z INFO Running prisma generate first...
+2025-10-16T16:16:56.855Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 390ms
+
+] Prisma generate result:
+2025-10-16T16:16:56.856Z INFO Running prisma db push to sync schema...
+2025-10-16T16:17:02.224Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 284ms
+
+] Prisma db push result:
+2025-10-16T16:17:02.225Z INFO Database initialized successfully
+2025-10-16T16:17:02.227Z INFO [Migration] Checking for database migration...
+2025-10-16T16:17:02.880Z INFO [Migration] No migration needed
+2025-10-16T16:18:01.719Z INFO Closing entire Pythagora extension...
+2025-10-16T16:18:01.731Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-16T16:18:16.575Z INFO SharedStateManager initialized
+2025-10-16T16:18:16.577Z INFO Is remote: false
+2025-10-16T16:18:16.578Z INFO Starting Local. Installation path: c:\
+2025-10-16T16:18:16.580Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-16T16:18:16.582Z INFO Installation path exists: c:\
+2025-10-16T16:18:16.583Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-16T16:18:16.591Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19] Project root:
+2025-10-16T16:18:16.592Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\prisma\schema.prisma] Schema path:
+2025-10-16T16:18:16.592Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-16T16:18:16.593Z INFO [true] Schema exists:
+2025-10-16T16:18:16.594Z INFO Running prisma generate first...
+2025-10-16T16:18:19.642Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 370ms
+
+] Prisma generate result:
+2025-10-16T16:18:19.643Z INFO Running prisma db push to sync schema...
+2025-10-16T16:18:22.830Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 385ms
+
+] Prisma db push result:
+2025-10-16T16:18:22.832Z INFO Database initialized successfully
+2025-10-16T16:18:23.400Z INFO [Migration] Checking for database migration...
+2025-10-16T16:18:23.732Z INFO [Migration] No migration needed
+2025-10-16T17:37:31.678Z INFO Closing entire Pythagora extension...
+2025-10-16T17:37:31.695Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-17T13:55:44.821Z INFO SharedStateManager initialized
+2025-10-17T13:55:44.823Z INFO Is remote: false
+2025-10-17T13:55:44.824Z INFO Starting Local. Installation path: c:\
+2025-10-17T13:55:44.825Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-17T13:55:44.826Z INFO Installation path exists: c:\
+2025-10-17T13:55:44.826Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-17T13:55:44.830Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19] Project root:
+2025-10-17T13:55:44.831Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\prisma\schema.prisma] Schema path:
+2025-10-17T13:55:44.831Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-17T13:55:44.832Z INFO [true] Schema exists:
+2025-10-17T13:55:44.833Z INFO Running prisma generate first...
+2025-10-17T13:55:48.020Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 260ms
+
+] Prisma generate result:
+2025-10-17T13:55:48.020Z INFO Running prisma db push to sync schema...
+2025-10-17T13:55:51.094Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 185ms
+
+] Prisma db push result:
+2025-10-17T13:55:51.094Z INFO Database initialized successfully
+2025-10-17T13:55:51.095Z INFO [Migration] Checking for database migration...
+2025-10-17T13:55:51.276Z INFO [Migration] No migration needed
+2025-10-17T13:55:51.342Z INFO Closing entire Pythagora extension...
+2025-10-17T13:55:51.346Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-17T13:55:53.222Z INFO SharedStateManager initialized
+2025-10-17T13:55:53.223Z INFO Is remote: false
+2025-10-17T13:55:53.223Z INFO Starting Local. Installation path: c:\
+2025-10-17T13:55:53.224Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-17T13:55:53.225Z INFO Installation path exists: c:\
+2025-10-17T13:55:53.226Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-17T13:55:53.229Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19] Project root:
+2025-10-17T13:55:53.229Z INFO [c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\prisma\schema.prisma] Schema path:
+2025-10-17T13:55:53.230Z INFO [file:c:\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-17T13:55:53.230Z INFO [true] Schema exists:
+2025-10-17T13:55:53.231Z INFO Running prisma generate first...
+2025-10-17T13:55:55.208Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 215ms
+
+] Prisma generate result:
+2025-10-17T13:55:55.209Z INFO Running prisma db push to sync schema...
+2025-10-17T13:55:57.430Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\pythagora-core\data\database\pythagora.db"
+
+The database is already in sync with the Prisma schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.17.1) to .\src\generated\prisma in 209ms
+
+] Prisma db push result:
+2025-10-17T13:55:57.431Z INFO Database initialized successfully
+2025-10-17T13:55:57.794Z INFO [Migration] Checking for database migration...
+2025-10-17T13:55:58.056Z INFO [Migration] No migration needed
+2025-10-17T14:00:26.688Z INFO Closing entire Pythagora extension...
+2025-10-17T14:00:26.704Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.19\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-17T16:44:13.813Z INFO SharedStateManager initialized
+2025-10-17T16:44:13.820Z INFO Is remote: false
+2025-10-17T16:44:13.820Z INFO Starting Local. Installation path: c:\
+2025-10-17T16:44:13.821Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-17T16:44:13.821Z INFO Installation path exists: c:\
+2025-10-17T16:44:13.822Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-17T16:44:13.837Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-17T16:44:13.838Z INFO Database initialized successfully
+2025-10-17T16:44:13.839Z INFO [Migration] Checking for database migration...
+2025-10-17T16:44:14.257Z INFO [Migration] No migration needed
+2025-10-17T16:57:51.900Z INFO Closing entire Pythagora extension...
+2025-10-17T16:57:51.917Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.21\out\extension.js:381:31)
+    at Object.deactivate (c:\Users\nihaa\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.21\out\extension.js:291:15)
+    at SZ.eb (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/nihaa/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-17T16:58:18.205Z INFO SharedStateManager initialized
+2025-10-17T16:58:18.206Z INFO Is remote: false
+2025-10-17T16:58:18.206Z INFO Starting Local. Installation path: c:\
+2025-10-17T16:58:18.207Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-17T16:58:18.208Z INFO Installation path exists: c:\
+2025-10-17T16:58:18.209Z INFO Initializing database with URL: file:c:\pythagora-core\data\database\pythagora.db
+2025-10-17T16:58:18.213Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-17T16:58:18.214Z INFO Database initialized successfully
+2025-10-17T16:58:18.215Z INFO [Migration] Checking for database migration...
+2025-10-17T16:58:18.469Z INFO [Migration] No migration needed
