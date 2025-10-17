@@ -46,7 +46,7 @@ By the end of the project, students will:
 **Source:** Kaggle
 
 ## System Architecture
-![System Architecture](images/system_architecture.png)
+![System Architecture](img/system_architecture.png)
 
 
 **Modules to Be Implemented:**
