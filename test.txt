@@ -1,1 +1,2 @@
 Write observation:
+1. merge commands pull all the changes from main to my branch.
