@@ -46,7 +46,7 @@ By the end of the project, students will:
 **Source:** Kaggle
 
 ## System Architecture
-![System Architecture](images/system_architecture.png)
+![System Architecture](img/system_architecture.png)
 
 
 **Modules to Be Implemented:**
@@ -179,4 +179,5 @@ By the end of the project, students will:
 ```
 * Plot training vs validation loss and accuracy
 * Identify overfitting or underfitting
+
 ```
