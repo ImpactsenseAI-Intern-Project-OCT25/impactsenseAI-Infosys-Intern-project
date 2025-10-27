@@ -16,7 +16,8 @@ from scipy.stats import chi2_contingency
 # ============================================================================
 
 # Load the dataset
-df = pd.read_csv('C:/Users/win10/Desktop/Project_Oct25/impactsenseAI-Infosys-Intern-project/data/earthquakes_data.csv')
+df = pd.read_csv('C:/Users/divyanshu/OneDrive/Desktop/Projects/ImpactSense/impactsenseAI-Infosys-Intern-project/data/earthquakes_data.csv')
+
 
 # Display sample data
 print("Sample Data:")
