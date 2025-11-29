@@ -7,10 +7,12 @@ st.header('This is a Header')
 st.subheader('This is a Subheader')
 st.text('This is a standard text message.')
 
+
 st.markdown('# Markdown Title\nSome **bold** and _italic_ text.')
 st.code('print("Hello, Streamlit!")', language='python')
 st.latex('e^{i\\pi} + 1 = 0')
 st.write('Write can display various data types including text, numbers, and dataframes')
+
 
 if st.button('Click me'):
     st.write('Button clicked!')
