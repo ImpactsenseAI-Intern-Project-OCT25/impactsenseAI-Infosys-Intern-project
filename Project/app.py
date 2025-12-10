@@ -293,7 +293,6 @@ elif page == "🔮 Predict":
                     st.caption("📌 Shows feature impact on prediction")
                 except Exception as e:
                     st.warning(f"⚠️ SHAP plot unavailable: {e}")
-
 elif page == "🗺️ Map":
     st.subheader("🌐 Global Risk Map")
     
@@ -308,49 +307,91 @@ elif page == "🗺️ Map":
     df_map['risk_score_plot'] = df_map['risk_score'].fillna(df_map['risk_score'].min())
     df_map['risk_score_plot'] = df_map['risk_score_plot'].clip(lower=0.1)  # Minimum size
     
+    # FIXED: Define color_map FIRST (always available)
+    color_map = {
+        "Low": "#00FF41", 
+        "Medium": "#FFD700", 
+        "High": "#FF8C00", 
+        "Very High": "#FF1744"
+    }
+    
+    # NEW: Risk Category Filter + Download (Columns)
+    col_filter, col_download = st.columns([2, 1])
+    
+    with col_filter:
+        selected_risk = st.selectbox(
+            "🎯 Filter by Risk Category", 
+            options=["All"] + list(risk_labels.values()), 
+            index=0,
+            help="Filter map markers by risk level"
+        )
+    
+    with col_download:
+        # Download FILTERED dataset (respects selection)
+        csv_download = df_map.to_csv(index=False)
+        st.download_button(
+            label="💾 Download Dataset",
+            data=csv_download,
+            file_name=f"ImpactSenseAI_earthquakes_{pd.Timestamp.now().strftime('%Y%m%d_%H%M')}.csv",
+            mime="text/csv",
+            use_container_width=True
+        )
+    
+    # Filter data based on selection
+    if selected_risk != "All":
+        risk_num = {v: k for k, v in risk_labels.items()}[selected_risk]
+        df_map_filtered = df_map[df_map['Risk_Category'] == risk_num].copy()
+        st.info(f"🗺️ Showing **{len(df_map_filtered):,}** '{selected_risk}' risk earthquakes")
+    else:
+        df_map_filtered = df_map.copy()
+        st.info(f"🗺️ Showing **{len(df_map_filtered):,}** earthquakes (All categories)")
+    
     # Limit for performance
-    df_map_sample = df_map.head(5000)
+    df_map_sample = df_map_filtered.head(5000)
     
-    st.info(f"🗺️ Mapping {len(df_map_sample):,} earthquakes (NaN risk_score removed)")
+    # FIXED: Conditional color_discrete_map (now uses defined color_map)
+    if selected_risk != "All":
+        color_discrete_map = {selected_risk: color_map[selected_risk]}
+    else:
+        color_discrete_map = color_map
     
+    # FIXED: Hover data - ONLY use columns that exist in processed data
+    hover_columns = ['risk_score', 'Mw', 'depth', 'urbanity_indicator']
+    
+    # Interactive Map (NOW WORKS - no magType)
     fig = px.scatter_mapbox(
         df_map_sample,
         lat="latitude", 
         lon="longitude",
         color="Risk_Label",
-        size="risk_score_plot",  # Use cleaned column
+        size="risk_score_plot",
         size_max=15,
         opacity=0.7,
-        color_discrete_map={
-            "Low": "#00FF41", 
-            "Medium": "#FFD700", 
-            "High": "#FF8C00", 
-            "Very High": "#FF1744"
-        },
-        hover_data=['risk_score', 'Mw', 'depth', 'urbanity_indicator'],
+        color_discrete_map=color_discrete_map,  # ✅ Properly defined
+        hover_data=hover_columns,  # ✅ Only existing columns
         zoom=1,
         mapbox_style="carto-positron",
-        title="Earthquake Risk Distribution (Red = Very High Risk)"
+        title=f"Earthquake Risk Distribution ({selected_risk if selected_risk != 'All' else 'All Categories'})"
     )
     
     fig.update_layout(height=600, margin={"r":0,"t":40,"l":0,"b":0})
     st.plotly_chart(fig, use_container_width=True)
     
-    # Data summary
+    # Data summary (Updated for filtered data)
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.metric("Total for Map", f"{len(df_map):,}")
+        st.metric("Total Available", f"{len(df_map):,}")
     with col2:
-        st.metric("NaN Risk Score", f"{len(df_processed) - len(df_map):,}")
+        st.metric("Filtered Shown", f"{len(df_map_filtered):,}")
     with col3:
-        st.metric("Risk Score Range", f"{df_map['risk_score'].min():.2f} - {df_map['risk_score'].max():.2f}")
+        st.metric("Risk Score Range", f"{df_map_filtered['risk_score'].min():.2f} - {df_map_filtered['risk_score'].max():.2f}")
     with col4:
-        st.metric("Avg Risk Score", f"{df_map['risk_score'].mean():.2f}")
+        st.metric("Avg Risk Score", f"{df_map_filtered['risk_score'].mean():.2f}")
     
-    # Sample table
-    st.markdown("### 📋 Sample Mapped Data")
-    display_cols = ['latitude', 'longitude', 'risk_score', 'Risk_Label', 'Mw', 'depth']
-    st.dataframe(df_map[display_cols].head(10))
+    # Sample table (Filtered data)
+    st.markdown("### 📋 Sample Filtered Data")
+    display_cols = ['latitude', 'longitude', 'risk_score', 'Risk_Label', 'Mw', 'depth', 'urbanity_indicator']
+    st.dataframe(df_map_filtered[display_cols].head(10))
 
 
 elif page == "📈 Model":
