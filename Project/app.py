@@ -167,7 +167,7 @@ with st.spinner("📥 Loading & standardizing data..."):
 
 # Load preprocessing pipeline
 if not os.path.exists(preprocessing_path):
-    st.error("❌ Preprocessing pipeline missing. Run: `python preprocessing_pipeline.py`")
+    st.error("❌ Preprocessing pipeline missing. Run: `/data_python preprocessing_pipeline.py`")
     st.stop()
 
 preprocessing_pipeline = joblib.load(preprocessing_path)
