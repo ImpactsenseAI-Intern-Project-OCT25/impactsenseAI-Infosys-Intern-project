@@ -46,7 +46,7 @@ By the end of the project, students will:
 **Source:** Kaggle
 
 ## System Architecture
-![System Architecture](img/system_architecture.png)
+![System Architecture](images/system_architecture.png)
 
 
 **Modules to Be Implemented:**
@@ -162,12 +162,10 @@ By the end of the project, students will:
 
 ```
 * MAE (Mean Absolute Error)
-```
-
-```
-* MSE (Mean Squared Error)
+* RMSE (Root Mean Squared Error)
 * R² Score (Coefficient of Determination)
 ```
+
 **Feature Importance:**
 
 ```
@@ -189,11 +187,11 @@ Follow these simple steps to set up and test the project:
    - Open your terminal or command prompt.
    - Run the command below to clone the project repository:
      ```
-     git clone https://github.com/impactSense-infosys-intern-project/ImpactSense-Intern-project.git
+     git clone https://github.com/ImpactsenseAI-Intern-Project-OCT25/impactsenseAI-Infosys-Intern-project.git
      ```
    - Change directory to the project folder:
      ```
-     cd ImpactSense-Intern-project/Project
+     cd impactsenseAI-Infosys-Intern-project/Project
      ```
 
 2. **Create and Activate Python Virtual Environment**
@@ -224,7 +222,7 @@ Follow these simple steps to set up and test the project:
      ```
 
 7. **Upload Test Data**
-   - Use the Streamlit app interface to upload `test_database` files located in:
+   - Use the Streamlit app interface to upload `test_data.csv` files located in:
      ```
      data/
      ```
